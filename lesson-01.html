@@ -1,0 +1,323 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab" rel="stylesheet"> <!-- THIS LINE INCLUDES THE ROBOTO  FONTS -->
+ 
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  
+  <!-- Start Navbar -->
+  <style amp-custom>
+
+  
+  /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+  
+  html {
+
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+   -webkit-tap-highlight-color: rgba(255,255,255,0);
+      text-rendering: optimizeSpeed;
+      -webkit-font-smoothing: antialiased;
+}
+
+body, html {
+    height: auto;
+}
+html {
+    overflow-x: hidden;
+}
+  .center {
+      text-align: center;
+  }
+
+  .main-body {
+	background: #ffffff;
+	max-width: 37.5rem;
+	margin: 0 auto;
+	overflow-x: hidden
+}
+  
+  
+	.ampstart-headerbar{
+		background-color:#fff;
+		color:#000;
+		z-index:999;
+		box-shadow:0 0 5px 2px rgba(0,0,0,.1)
+	}
+
+	.ampstart-navbar-trigger{
+		line-height:3.5rem;
+		font-size:2rem
+	}
+
+.www-header,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+.www-header{
+    background-image:linear-gradient(90deg,#94103e 0,#db004d);
+    padding:7rem 0;
+    color:#fff;
+    -webkit-clip-path:polygon(100% 100%,100% 0,-400% 0);
+    clip-path:polygon(100% 100%,100% 0,-400% 0)
+}
+.www-header>*{
+    padding-left:6rem; /* Changed value to 6rem from 7rem */
+    padding-right:6rem /* Changed value to 6rem from 7rem */
+}
+
+@media (max-width: 40rem) {
+    .www-header > * {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+  /* Start of CSS added to style "OPEN IN PLAYGROUND" */
+  .ampstart-btn-secondary:visited {
+      color: #fff;
+  }
+  .ampstart-btn-secondary, .ampstart-btn-secondary[disabled], .ampstart-btn-secondary[disabled]:focus, .ampstart-btn-secondary[disabled]:hover, a.ampstart-btn-secondary, a.ampstart-btn-secondary.disabled, a.ampstart-btn-secondary.disabled:focus, a.ampstart-btn-secondary.disabled:hover {
+      color: #fff;
+      background: #b60845;
+      border: 1px solid #fff;
+  }
+  .ampstart-btn-secondary {
+      background-color: #b60845;
+      color: #fff;
+      border: 1px solid #fff;
+  }
+  .ampstart-btn {
+      font-size: 1rem;
+      line-height: 1.125rem;
+      padding: .7em .8em;
+      text-decoration: none;
+      white-space: nowrap;
+      word-wrap: normal;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #fff;
+      color: #b60845;
+      border: 1px solid #b60845;
+  }
+  .mx2 {
+      margin-right: 1.5rem;
+  }
+  .ml2, .mx2 {
+      margin-left: 1.5rem;
+  }
+  .mb1 {
+      margin-bottom: 1rem;
+  }
+  .inline-block {
+      display: inline-block;
+  }
+  .caps {
+      text-transform: uppercase;
+      letter-spacing: .2em;
+  }
+  /* END of CSS added to style "OPEN IN PLAYGROUND" */
+
+
+      /* START of new css */
+
+  /*
+    1. Default declarations for flex display
+    2. This ruleset only applies to the `first-child`, i.e. the first element
+    3. This ruleset only applies when the width of the browser is less than 40 rem
+    4. Make the size of the tab character equal to 2 spaces
+    5. Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks
+    6. Default value. Break words according to their usual rules
+    7. If the content is larger than the maximum value(600px in this case) it will overflow with a scroll bar
+   */
+
+  .flex { /* 1 */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+  }
+  .pl2 {
+      padding-left: 1.5rem;
+  }
+  .www-component-desc:first-child h2 { /* 2 */
+      margin-top: 0;
+  }
+  .www-component-desc h2 {
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+  }
+
+
+  .www-component-desc>* {
+      padding-left: 5rem;
+      padding-right: 5rem;
+  }
+  @media (max-width: 40rem) { /* 3 */
+      .www-component-desc > * {
+          padding-left: 0;
+          padding-right: 0;
+      }
+  }
+  .www-heading {
+      letter-spacing: inherit;
+      color: #000;
+  }
+  .h3, h3 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+  }
+  .relative {
+      position: relative;
+  }
+  .pb4 {
+      padding-bottom: 2.5rem;
+  }
+
+  .abe-code-container {
+      padding: 0;
+      margin: 0;
+  }
+  .abe-code-preview {
+      background: #f9f7f7;
+      position: relative;
+  }
+  .ampstart-card {
+      box-shadow: 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 1px -1px rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  .fit {
+      max-width: 100%;
+  }
+
+
+  .www-component-desc pre, pre {
+      font-size: 14px;
+      overflow: scroll;
+      -moz-tab-size: 2; /* 4 */
+      tab-size: 2; /* 4 */
+      word-break: normal; /* 6 */
+      line-height: 1.4;
+  }
+  .www-component-desc pre, code, pre {
+      font-family: 'Roboto Slab', serif;
+      font-size: .9rem;
+      white-space: pre-wrap; /* 5 */
+  }
+
+  .abe-code pre, .www-component-desc>pre>code {
+      white-space: pre-wrap; /* 5 */
+      overflow-x: auto; /* 7 */
+      margin: 0;
+      max-height: 600px;
+      padding: 0;
+  }
+  .abe-code pre {
+      padding: 1rem;
+  }
+  .hljs-meta {
+      color: #999;
+      font-weight: 700;
+  }
+  /* END of new CSS */
+
+      /* This makes the header fixed */
+  .left-0 {
+      left: 0;
+  }
+
+  .right-0 {
+      right: 0;
+  }
+  .top-0 {
+      top: 0;
+  }
+  .fixed {
+      position: fixed;
+  }
+  .justify-start {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+  }
+  .items-center {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+  }
+  .pr4 {
+      padding-right: 2.5rem;
+  }
+  .ampstart-headerbar {
+      background-color: #fff;
+      color: #000;
+      z-index: 999;
+      box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
+  }
+      /* This controls the line height site-wide */
+  body {
+      line-height: 1.5rem;
+  }
+      /* This controls the line after the heading */
+  .www-heading:after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 2.5rem;
+      background: #4a4a4a;
+      position: absolute;
+      bottom: 0;
+  }
+  /* This controls the font types for the paragraph in each section */
+      .www-component-desc p {
+          font-family: 'Roboto Condensed', sans-serif;
+      }
+      /* This makes the logo in the header centered */
+  .mx-auto {
+      margin-left: auto;
+  }
+  /* This makes the logo in the header centered */
+  .mr-auto, .mx-auto {
+      margin-right: auto;
+  }
+</style>
+  
+  
+  </head>
+  <body>
+ 
+  <!-- Start Navbar -->
+  <div class="main-body">
+    <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
+        <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">☰</div>
+        <a href="/" class="my0 flex items-center mx-auto">
+            <amp-img src="https://ampbyexample.com/img/amp_by_example_logo.svg" width="208" height="40" class="" layout="fixed" alt="AMP by Example" noloading></amp-img>
+        </a>
+	</header>
+	<header class="www-header center" id="top-header"><h1 class="mb1">Hello World</h1>
+	<p class="block mb4 caps ">Edit on Github</p>
+	<div class="www-index-header-action mx-auto"><a class="ampstart-btn ampstart-btn-secondary caps mb1 mx2 text-decoration-none inline-block" 
+	href="/playground/#url=https://ampbyexample.com/introduction/hello_world/source/">Open in Playground</a></div>
+	</header>
+
+      <amp-selector layout="container" class="i-amphtml-element i-amphtml-layout-container i-amphtml-layout" role="listbox">
+          <main class="flex pl2">
+      <article class="www-components flex-auto col-9">
+          <section class="www-component-desc">
+              <h2 id="introduction" class="www-heading pb4 mb2 relative h3">Introduction</h2>
+              <p class="mb2 px1">An AMP HTML tutorial - learn the different building blocks of an AMP HTML file. AMP HTML is entirely built on existing web technologies. It achieves reliable performance by restricting some parts of HTML, CSS and JavaScript. To make up for those limitations AMP HTML defines a set of custom elements for rich content beyond basic HTML. This samples shows what's necessary to create a valid AMP HTML file.</p>
+          </section>
+          <section class="www-component-desc"><p class="mb2 px1">Doctype declaration is required.</p><div class="abe-code-container"><div class="abe-code-preview ampstart-card"><div class="abe-code fit"><pre class="hljs html p0 m0"><span class="hljs-meta">&lt;!doctype html&gt;</span></pre></div></div></div></section>
+      </article>
+          </main>
+      </amp-selector>
+
+</div>
+	
+  </body>
+</html>
